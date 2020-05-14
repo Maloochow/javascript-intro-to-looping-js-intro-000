@@ -19,8 +19,8 @@ function whileLoop(number) {
 
 
 function doWhileLoop(num) {
+  let a = 0;
   do {
-    let a = 0;
     console.log("I run once regardless.");
     a += 1;
   } while (
