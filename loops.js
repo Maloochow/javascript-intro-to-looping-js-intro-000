@@ -21,8 +21,8 @@ let a = 0;
 function doWhileLoop(num) {
   do {
     console.log("I run once regardless.");
-    a += 1
+    a += 1;
   } while (
     a <= 10
-  )  
+  )
 }
