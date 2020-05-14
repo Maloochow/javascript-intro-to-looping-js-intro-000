@@ -16,10 +16,11 @@ function whileLoop(number) {
   }
 }
 
-let a = 0;
+
 
 function doWhileLoop(num) {
   do {
+    let a = 0;
     console.log("I run once regardless.");
     a += 1;
   } while (
